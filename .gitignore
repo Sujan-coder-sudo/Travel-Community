@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build files
+.next/
+dist/
+out/
+.vite/
+
+# Logs & Temporary files
+logs/
+*.log
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+debug.log
+error.log
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Coverage reports
+coverage/
+
+# Cache files
+.cache/
+*.swp
+*.swo
+
+# Storybook files
+.storybook/
+storybook-static/
+
+# Linting
+.eslintcache
+stylelint.cache
+
+# Typescript build files
+*.tsbuildinfo
+
+# Firebase (if used)
+firebase-debug.log
+.firebaserc
+
+# Next.js (if used)
+.next/
+.vercel/
